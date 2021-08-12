@@ -1,0 +1,58 @@
+* {
+  font-family: "Linden Hill";
+}
+
+.navbar-green {
+  background-color: #5e6251;
+}
+
+.btn-contact {
+  background-color: #a5a58d;
+}
+
+.btn-contact a {
+  text-decoration: none;
+  color: white;
+}
+
+#about {
+  background-color: #6b705c;
+}
+
+.project-card {
+  background-color: #e9e9e3;
+  min-height: 680px;
+  border: none;
+}
+
+.project-card img:hover {
+  opacity: 0.8;
+}
+
+.project-card img:active {
+  opacity: 0.5;
+}
+
+.ext_link {
+  text-decoration: none;
+  color: #222;
+}
+
+.ext_link:hover {
+  color: #565644;
+}
+
+.ext_link:active {
+  color: #ffe8d6;
+}
+
+#skills {
+  width: 80%;
+  margin: auto;
+}
+
+#projects {
+  width: 90%;
+  margin: auto;
+}
+/*# sourceMappingURL=style.css.map */

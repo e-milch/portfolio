@@ -1,0 +1,79 @@
+// dark grey
+$dark-grey: #222;
+// khaki green
+$khaki-green: #6b705c;
+// Champagne
+$champagne: #ffe8d6;
+// Artichoke
+$artichoke: #a5a58d;
+// Ash Gray
+$ash-grey: #b7b7a4;
+// Antique Brass
+$antique-brass: #cb997e;
+
+// Palette Hex and colour names
+// {"Antique Brass":"cb997e","Desert Sand":"ddbea9","Champagne Pink":"ffe8d6","Ash Gray":"b7b7a4","Artichoke":"a5a58d","Ebony":"6b705c"}
+
+* {
+  font-family: "Linden Hill";
+}
+
+.navbar {
+  &-green {
+    background-color: darken($khaki-green, 5);
+  }
+}
+
+.btn {
+  &-contact {
+    background-color: $artichoke;
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
+
+#about {
+  background-color: $khaki-green;
+}
+
+.project-card {
+  background-color: lighten($artichoke, 30);
+  min-height: 680px;
+  border: none;
+
+  img {
+    &:hover {
+      opacity: 0.8;
+    }
+
+    &:active {
+      opacity: 0.5;
+    }
+  }
+}
+
+.ext_link {
+  text-decoration: none;
+  color: $dark-grey;
+
+  &:hover {
+    color: darken($artichoke, 30);
+  }
+
+  &:active {
+    color: $champagne;
+  }
+}
+
+#skills {
+  width: 80%;
+  margin: auto;
+}
+
+#projects {
+  width: 90%;
+  margin: auto;
+}
