@@ -48,54 +48,80 @@
         <div class="collapse navbar-collapse" id="navmenu">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a href="#skills" class="nav-link">Skills</a>
+              <a href="./index.html#skills" class="nav-link">Skills</a>
             </li>
             <li class="nav-item">
-              <a href="#projects/index.html/" class="nav-link">Projects</a>
+              <a href="./index.html#projects" class="nav-link">Projects</a>
             </li>
             <li class="nav-item">
-              <a href="#about" class="nav-link">About Me</a>
+              <a href="./index.html#about" class="nav-link">About Me</a>
             </li>
             <li class="nav-item">
               <a href="./resources/Ella _MilechCV.pdf" class="nav-link">CV</a>
             </li>
             <li class="nav-item">
-              <a href="#contact" class="nav-link">Contact</a>
+              <a href="./index.html#contact" class="nav-link">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <p>MothDX Client Project Desc here</p>
-    <div>
-      <h4>The Client: MothDX</h4>
-      <p>
-        A lab that manufactures rapid covid test using LAMP technology, right
-        here in Sydney
-      </p>
-      <a href="https://www.mothdx.com/">
-        <img src="/resources/mothDX-brand-img.png" alt=""
-      /></a>
-    </div>
 
-    <div>
-      <h4>The problem</h4>
-      <p>
-        They need a TGA compliant database to track their entire manufacturing
-        process from ordering the base chemicals and stock needed for
-        production, to getting their testing kits out to customers. And
-        *everything* needs to be auditable
-      </p>
-    </div>
+    <section class="pt-5 mt-5">
+      <div class="container">
+        <div>
+          <h4>The Client: MothDX</h4>
+          <p>
+            A lab that manufactures rapid covid test kits using LAMP assays, right
+            here in Sydney.
+          </p>
+          <a href="https://www.mothdx.com/">
+            <img
+              class="img-fluid w-25"
+              src="./resources/mothDX-brand-img.png"
+              alt=""
+          /></a>
+          <!-- <img
+            class="img-fluid w-25"
+            src=" https://images.squarespace-cdn.com/content/v1/5eef0b90fb5dd90fcdab904b/1592783064283-XOVGYUCURAY9IY2WLT9L/Osaka-fertilty-lab-2%2Bcropped.jpg?format=500w"
+            alt=""
+          />
+          <img
+            class="img-fluid w-10"
+            src="https://images.unsplash.com/photo-1576086265779-619d2f54d96b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+            alt=""
+          />
+        </div> -->
 
-    <div>
-      <h4>How we helped</h4>
-      <p>
-        My team at _nology worked together to build monolothic application; a
-        Spring Boot Java + MySQL backend, linked to a React frontend for the lab
-        staff to enter data during the manufacturing process and recall any
-        relational data for audit purposes.
-      </p>
-    </div>
+        <div>
+          <h4>The problem</h4>
+          <p>
+            They need a TGA compliant database to track their entire
+            manufacturing process from ordering the base chemicals and stock
+            needed for production, to getting their testing kits out to
+            customers. And *everything* needs to be auditable
+          </p>
+        </div>
+
+        <div>
+          <h4>How we helped</h4>
+          <p>
+            My team at _nology worked together to build monolothic application;
+            a Spring Boot Java + MySQL backend, linked to a React frontend for
+            the lab staff to enter data during the manufacturing process and
+            recall any relational data for audit purposes.
+          </p>
+        </div>
+
+        <div>
+            <h4>My experience</h4>
+            <p>
+              We started with the backend setup implementing CRUD for all entities necessary to get an MVP up and running. This included services, controllers and repositories for all endpoints. I was then keen to work on the front-end, as I wanted to see how everything would be linked up.
+              We used axios to send queries to the database, placing all data received into the necessary tables, pages and modals. An interesting challenge was displaying both frontend validation errors for posting data, as well as custom errors from the backend when necessary. 
+              We also took care to implement convenient UI features such as autocomplete for data entry.
+            </p>
+          </div>
+      </div>
+    </section>
   </body>
 </html>
